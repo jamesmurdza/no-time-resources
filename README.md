@@ -1,41 +1,37 @@
 # Building apps with no time and no sweat 😓
 
-## No code
+## 🧩 1. Make an app without coding with Thunkable
 
-### Thunkable
+1. If you want user sign in, start here to make an app in five minutes with user sign in and no coding: [Quickly build user sign-in apps with Thunkable](https://youtu.be/2OhOXeLGy_g)
+2. Follow a short tutorial like this one to add AI features: [Code a "Talk to Socrates" OpenAI generative-AI app](https://www.youtube.com/watch?v=5uTF6_eCSIw)
 
-Thunkable is a platform where you can build mobile apps with drag-and-drop. It has some basic authentication and database features built right in.
+## 🫧 2. Use a low-code template
 
-**Pros:** Really easy to make basic interacitivity, easier than coding.
-**Cons:** Not too many templates.
+1. Browse as many templates as you can:
+  - Bubble has AirBNB, Twitter, etc. templates you can use: [Bubble Templates](https://bubble.io/templates)
+  - FlutterFlow has ChatGPT, shopping app , etc. templates you can use: [FlutterFlow Templates](https://marketplace.flutterflow.io/)
+  - Adalo has Goodreads, directory etc. templates you can use: [Adalo Templates](https://www.adalo.com/cloneables-tags/all-kits-templates)
+2. Figure out how to ship your template as soon as possible (need to pay or use free trial for Bubble).
+3. Start playing with it, and experiment with making changes.
 
-- Start here to make an app in five minutes with user sign in and no coding: https://youtu.be/2OhOXeLGy_g
+List of even more templates: [Sites for low-code templates](https://dev.to/jamesmurdza/seven-sites-for-free-low-code-app-templates-4a1c)
 
-### Bubble, FlutterFlow, Adalo
+## 👾 3. Make a Telegram or Discord bot with Replit
 
-**Pros:** Lots of templates
-**Cons:** Harder to learn, might have to pay or use free trial to deploy
+1. Go to Replit.
+2. Start a new project from a template: Choose Telegram or Discord bot.
+3. Follow the instructions in the README.
+4. To make the bot run permanently, you will need to pay a small amount.
 
-- Bubble has AirBNB, Twitter, etc. templates you can use: [Bubble Templates](https://bubble.io/templates)
-- FlutterFlow has ChatGPT, shopping app , etc. templates you can use: [FlutterFlow Templates](https://marketplace.flutterflow.io/)
-- Adalo has Goodreads, directory etc. templates you can use: [Adalo Templates](https://www.adalo.com/cloneables-tags/all-kits-templates)
-- List of even more templates: [Sites for low-code templates](https://dev.to/jamesmurdza/seven-sites-for-free-low-code-app-templates-4a1c)
+### 🚗 4. Make a NextJS app from a template
 
-## A little coding
+1. Run `git clone https://github.com/jamesmurdza/nextjs-postgres-openai-starter` in terminal.
+2. Add a .env file with `OPENAI_API_KEY=MYAPIKEY`.
+3. Run `npm install` and `npm run dev`.
+4. Start editing the project with your JavaScript coding skills!
 
-### Replit
+For the next level, you might want an entire app with payments, email, etc. Here are a few great templates: [OpenSaaS](https://opensaas.sh/), [Cascade](https://cascade.stackonfire.com/), [Saasfly](https://show.saasfly.io/en)
 
-Replit is a platform that allows you to write and run code in any language using AI, with a broad selection of templates
-
-**Pros:** You can make any kind of project from bots to apps.
-**Cons:** AI is not as great as GPT-4.
-
-- Replit has templates for Streamlit apps, React apps, Telegram bots, Discord bots, Pygame, Phaser games. [Start here.](https://replit.com/)
-
-### Coding
-
-If you want to code an app yourself quickly, I'd probably start from a NextJS (JavaScript) or Streamlit (Python) template.
-
-- For NextJS, here's a cool template that uses OpenAI you can use: [jamesmurdza/nextjs-postgres-openai-starter](https://github.com/jamesmurdza/nextjs-postgres-openai-starter)
-- For AI app generation, if you want to generate just a nice looking frontend, use [GitWit](https://gitwit.dev/). If you want to generate a complete web app with a backend, try [Mage](https://usemage.ai/).
-- For the next level, you might want an entire app with payments, email, etc. Here are a few great templates: [OpenSaaS](https://opensaas.sh/), [Cascade](https://cascade.stackonfire.com/), [Saasfly](https://show.saasfly.io/en)
+### 🤖 5. Try generating an app with AI.
+- For AI app generation, if you want to generate just a nice looking frontend, use [GitWit](https://gitwit.dev/).
+- If you want to generate a complete web app with a backend, try [Mage](https://usemage.ai/).
